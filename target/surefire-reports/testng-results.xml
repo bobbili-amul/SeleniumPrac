@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-30T14:51:14 IST" name="Suite" finished-at="2022-09-30T14:52:25 IST" duration-ms="71204">
+    <groups>
+    </groups>
+    <test started-at="2022-09-30T14:51:14 IST" name="Test" finished-at="2022-09-30T14:52:25 IST" duration-ms="71204">
+      <class name="com.amul.SeliniumP.HomePageTest">
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:com.amul.SeliniumP.HomePageTest@53fdffa1]" started-at="2022-09-30T14:51:22 IST" name="verifyHomePageTitle" finished-at="2022-09-30T14:52:25 IST" duration-ms="62403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+      </class> <!-- com.amul.SeliniumP.HomePageTest -->
+      <class name="com.amul.SeliniumP.FaceBookLoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amul.SeliniumP.FaceBookLoginPageTest@4efc180e]" started-at="2022-09-30T14:50:43 IST" name="setUp" finished-at="2022-09-30T14:51:14 IST" duration-ms="30878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.amul.SeliniumP.FaceBookLoginPageTest@4efc180e]" started-at="2022-09-30T14:51:14 IST" name="loginTest" finished-at="2022-09-30T14:51:22 IST" duration-ms="8723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amul.SeliniumP.FaceBookLoginPageTest@4efc180e]" started-at="2022-09-30T14:52:25 IST" name="tearDown" finished-at="2022-09-30T14:52:26 IST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amul.SeliniumP.FaceBookLoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

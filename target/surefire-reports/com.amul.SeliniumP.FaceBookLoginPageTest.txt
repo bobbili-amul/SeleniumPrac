@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.amul.SeliniumP.FaceBookLoginPageTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 2.017 s <<< FAILURE! - in com.amul.SeliniumP.FaceBookLoginPageTest
+setUp(com.amul.SeliniumP.FaceBookLoginPageTest)  Time elapsed: 1.716 s  <<< FAILURE!
+io.github.bonigarcia.wdm.config.WebDriverManagerException: There was an error creating WebDriver object for Safari
+	at com.amul.SeliniumP.FaceBookLoginPageTest.setUp(FaceBookLoginPageTest.java:15)
+Caused by: java.lang.reflect.InvocationTargetException
+	at com.amul.SeliniumP.FaceBookLoginPageTest.setUp(FaceBookLoginPageTest.java:15)
+Caused by: org.openqa.selenium.WebDriverException: 
+Unable to find driver executable: \usr\bin\safaridriver(SafariDriver requires Safari 10 running on OSX El Capitan or greater.)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'JONAS', ip: '192.168.43.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: driver.version: SafariDriver
+	at com.amul.SeliniumP.FaceBookLoginPageTest.setUp(FaceBookLoginPageTest.java:15)
+
